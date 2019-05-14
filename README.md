@@ -1,5 +1,4 @@
 # GW GAN
-
 (still under construction)
 
 PyTorch Code for reproducing key results of the paper [Learning Generative Models across Incomparable Spaces](www.soon.com) by Charlotte Bunne, David Alvarez-Melis, Andreas Krause and Stefanie Jegelka.
@@ -47,7 +46,7 @@ with the following environment options:
 * `--data` selects the dataset. Choose between `mnist`, `fmnist` and `cifar_gray`.
 * `--num_epochs` defines the number of training epochs (default: 200)
 * `--n_channels` defines the number of channels of the CNN architecture (default=1).
-* '--beta' defines the parameter of the Procrustes-based orthogonal regularization (recommended for MNIST (mnist): 32, fashion MNIST (fmnist): 35, gray-scale CIFAR (cifar_gray): 40)
+* `--beta` defines the parameter of the Procrustes-based orthogonal regularization (recommended for MNIST (mnist): 32, fashion MNIST (fmnist): 35, gray-scale CIFAR (cifar_gray): 40)
 * `--cuda` is a flag to run the code on GPUs.
 * `--id` for identification of the training run.
 
